@@ -6,7 +6,7 @@ const TodoList = ({data, renderList, showHid}) => {
         <div className='col-span-2 bg-white row-span-4'><img className='h-full justify-self-center' src={data.image} alt="" /></div>
         <p className='col-span-2 row-span-2 font-bold mt-[10px]'>{data.title}</p>
         <div className='place-content-center text-gray-700 font-semibold'>${data.price}</div>
-        <button className='justify-self-end'><img rel='icon' src="src\assets\cart.png" onClick={()=>{renderList(data.id);showHid()}} width="20px"/></button>
+        <button className='justify-self-end'><img rel='icon' href="./assets/cart.png" onClick={()=>{renderList(data.id);showHid()}} width="20px"/></button>
     </div>
   )
 }
