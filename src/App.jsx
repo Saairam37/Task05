@@ -12,7 +12,7 @@ function App() {
 
     fetch("https://fakestoreapi.com/products").then(response=>response.json()).then(data=>setTodos(data));
     const noList=document.createElement("div");
-    noList.classList.add("md:w-[400px]", "w-[300px]" ,"h-[100px]","text-center","nolists","items-self-center");    
+    noList.classList.add("md:w-[400px]", "w-[250px]" ,"h-[100px]","text-center","nolists","items-self-center");    
     noList.textContent="No Items"
     document.getElementById("cartListu").appendChild(noList);
     document.querySelector(".showw").style.display="flex";
