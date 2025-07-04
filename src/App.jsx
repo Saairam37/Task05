@@ -86,7 +86,7 @@ function deleteList(listID){
         )}
     </div>
     <div className="fixed z-20 top-[30px] md:right-[450px] right-[350px] bg-red-600 font-bold rounded-full h-[30px] w-[30px] justify-center hidee"><button onClick={()=>{hidCart()}}>X</button></div>
-    <div className="fixed z-20 top-[30px] right-[30px] bg-green-500 font-bold rounded-full h-[30px] w-[60px] flex-col showw"><button onClick={()=>{showHid()}}><img className="w-[20px] inline" src="./assets/cart.png"/>     <span>{carts.length}</span></button></div>
+    <div className="fixed z-20 top-[30px] right-[30px] bg-green-500 font-bold rounded-full h-[30px] w-[60px] flex-col showw"><button onClick={()=>{showHid()}}><img className="w-[20px] inline" src=".src/assets/cart.png"/>     <span>{carts.length}</span></button></div>
 
     </div>
     </>
